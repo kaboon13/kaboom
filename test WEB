@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaspar Trantenroth - Filmmaker & Editor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1e1e2f;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #fff;
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #f39c12;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 40px;
+            color: #1e1e2f;
+        }
+
+        .about, .work, .films {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .about img, .films img {
+            width: 100%;
+            max-width: 400px;
+            margin-right: 40px;
+        }
+
+        .about p, .work p, .films p {
+            flex: 1;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #1e1e2f;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #f39c12;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Kaspar Trantenroth</h1>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#work">Work</a>
+        <a href="#latest-film">My Latest Film</a>
+        <a href="#films">Short Films</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="about">
+        <img src="your_image.jpg" alt="Kaspar Trantenroth">
+        <p>
+            Kaspar Trantenroth is a young German filmmaker & editor with a passion for dynamic storytelling & captivating visuals. Always looking for novel perspectives and consistently aiming to strive for excellence. Born in Berlin, Kaspar started learning the craft of shooting and editing at a young age, creating films under the name Kaboon Productions. 
+            Most recently, Kaspar has been traveling around South America for roughly a year. He is now back in Germany, eager to create exciting films.
+        </p>
+    </div>
+</section>
+
+<section id="work">
+    <h2>Work</h2>
+    <div class="work">
+        <p>
+            Kaspar has had the opportunity to collaborate with distinguished clients, including Villa Massimo, Estancia Don Joaquin, Valencia Travels, Cocolo Ramen, and many others. His portfolio reflects a range of visually captivating projects that merge his unique creative vision with dynamic storytelling.
+        </p>
+    </div>
+</section>
+
+<section id="latest-film">
+    <h2>My Latest Film</h2>
+    <div class="films">
+        <img src="latest_film_poster.jpg" alt="My Latest Film">
+        <p>
+            <strong>Decorative Timeline</strong> is a semi-professional short film written, directed, and produced by Kaspar Trantenroth. With a crew of 20 people, this film showcases his growing ambition and commitment to storytelling through innovative and experimental techniques.
+        </p>
+    </div>
+</section>
+
+<section id="films">
+    <h2>Short Films</h2>
+    <div class="films">
+        <img src="short_film_image.jpg" alt="Short Films">
+        <p>
+            Kaspar has directed and produced several short films under his production company, Kaboon Productions, experimenting with various genres and styles. His early work demonstrates a sharp eye for storytelling and technical expertise, honed over years of practice and passion.
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="work">
+        <p>
+            Interested in collaborating or have any questions? Feel free to reach out via email at <a href="mailto:kaspar@example.com">kaspar@example.com</a> or follow me on social media:
+        </p>
+        <ul>
+            <li><a href="https://www.instagram.com/kaspar">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/in/kaspar">LinkedIn</a></li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Kaspar Trantenroth. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
